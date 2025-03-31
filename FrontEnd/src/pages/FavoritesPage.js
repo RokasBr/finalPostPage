@@ -16,7 +16,7 @@ const FavoritesPage = () => {
             .then(res => res.json())
             .then(data => {
                 if (data.success) {
-                    console.log('favs', data);
+                    // console.log('favs', data);
                     setFavoritePosts(data.favorites); // Set favorite posts in state
                 }
             })

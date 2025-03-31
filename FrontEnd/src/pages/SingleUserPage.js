@@ -11,7 +11,7 @@ const SingleUserPage = () => {
     const [posts, setPosts] = useState([]);
     const [message, setMessage] = useState("");
     const [currentUser, setCurrentUser] = useState(null);
-    const { user:loggedUser } = mainStore(state => state);
+    const {user:loggedUser } = mainStore(state => state);
 
     useEffect(() => {
         // console.log('sotred', loggedUser);
@@ -35,7 +35,7 @@ const SingleUserPage = () => {
                     setCurrentUser(res.user);
                 }
             });
-    }, [username]);
+    }, [username, loggedUser?.username]);
 
     const sendMessage = async () => {
         if (!message.trim()) return alert("Message cannot be empty!");

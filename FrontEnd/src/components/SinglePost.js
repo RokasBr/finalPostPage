@@ -10,7 +10,9 @@ const SinglePost = ({post, isFav, removeFromFavorites}) => {
 
 
     function toggleFavorite() {
-        const url = "http://localhost:2002/favorites/add";
+        const url = isFav
+            ? "http://localhost:2002/favorites/remove"
+            : "http://localhost:2002/favorites/add";
 
         fetch(url, {
             method: "POST",
@@ -23,7 +25,7 @@ const SinglePost = ({post, isFav, removeFromFavorites}) => {
             .then(res => res.json())
             .then(data => {
                 if (data.success) {
-                    console.log(data)
+                    // console.log(data)
                     setIsFavorite(!isFav);
                     if (isFav && removeFromFavorites) {
                         removeFromFavorites(post._id);

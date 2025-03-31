@@ -14,14 +14,14 @@ const SinglePostPage = () => {
     const commentInputRef = useRef(null);
 
     useEffect(() => {
-        fetchPost();
-    }, []);
+        const fetchPost = async () => {
+            const res = await http.get(`http://localhost:2002/post/${post_id}`);
+            if (res.success) setPost(res.post);
+        };
 
-    const fetchPost = async () => {
-        const res = await http.get(`http://localhost:2002/post/${post_id}`);
-        if (res.success) setPost(res.post);
-        console.log('post', post);
-    };
+        fetchPost();
+    }, [post_id]);
+
 
     const addComment = async () => {
         if (!commentText) return;
