@@ -14,8 +14,7 @@ const SingleUserPage = () => {
     const { user:loggedUser } = mainStore(state => state);
 
     useEffect(() => {
-        console.log('sotred', loggedUser);
-        // Fetch user details
+        // console.log('sotred', loggedUser);
         http.get(`http://localhost:2002/user/${username}`)
             .then(res => {
                 if (res.success) {
@@ -23,7 +22,6 @@ const SingleUserPage = () => {
                 }
             });
 
-        // Fetch user's posts
         http.get(`http://localhost:2002/user/${username}/posts`)
             .then(res => {
                 if (res.success) {
@@ -31,7 +29,6 @@ const SingleUserPage = () => {
                 }
             });
 
-        // Get logged-in user
         http.get(`http://localhost:2002/user/${loggedUser.username}`)
             .then(res => {
                 if (res.success) {
@@ -51,7 +48,7 @@ const SingleUserPage = () => {
 
             if (res.success) {
                 alert("Message sent!");
-                setMessage(""); // Clear input after sending
+                setMessage("");
             } else {
                 alert("Failed to send message");
             }

@@ -32,19 +32,11 @@ const {
 const userAuth = require("../middleware/userAuth")
 
 
-router.post("/register", register)
-router.post("/login", login)
-
+router.post("/register", validateRegister, register)
+router.post("/login", validateLogin, login)
 router.get("/getUser", getUser);
-// router.get("/users", getUsers)
-
-
 router.post("/create", createPost)
-// router.post("/update", updatePost)
-//
 router.get("/posts", getPosts)
-// router.get("/remove/:id", removePost)
-
 router.post("/favorites/add", userAuth, addFavorite);
 router.post("/favorites/remove", userAuth, removeFavorite);
 router.get("/favorites", userAuth, getFavorites);
@@ -53,7 +45,7 @@ router.get("/profile/:username", userAuth, getUserByUsername);
 router.get("/post/:post_id", getPostById);
 router.post("/post/:post_id/comment", userAuth, addComment);
 router.get("/user/:username", userAuth, getUserByUsername);
-router.get("/user/:username/posts", getUserPosts);
+router.get("/user/:username/posts", userAuth, getUserPosts);
 router.post("/messages/send", userAuth, sendMessage);
 router.get("/messages", userAuth, getMessages);
 router.post("/messages/delete", userAuth, deleteMessage);

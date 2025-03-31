@@ -238,9 +238,15 @@ body {
   max-width: 500px; /* Adjust as needed */
   max-height: 300px; /* Adjust as needed */
   object-fit: contain; /* Ensures the image fills the space without distortion */
+  /*margin-right: 50px;*/
 
 }
+.post-container .image-container {
+  margin-right: 20px; /* Adds margin to the right of the image container */
+}
+
 .post-container .d-flex {
+  align-items: center; /* Ensures elements align properly */
   display: flex;
   align-items: flex-start;
   /*gap: 0px; !* Creates spacing between image and text *!*/
@@ -436,4 +442,13 @@ body {
 
 .post .favorite.active {
   background: #2ecc71;
+}
+
+.highlight-owner a{
+  font-weight: bold;
+  color: #3c3c8c;
+}
+.highlight-owner a:hover {
+  color: #6e6eff;
+  text-decoration: underline;
 }

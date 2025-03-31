@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65c934c6-e739-43f5-bbae-122b42b22bcc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/route.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/src/Pages/GalleryPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/Pages/GalleryPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/src/Pages/IndexPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/Pages/IndexPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/src/Pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/Pages/LoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/src/Pages/PostsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/Pages/PostsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/src/Pages/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/Pages/ProfilePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/src/Pages/RegistrationPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/Pages/RegistrationPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/src/components/SinglePhoto.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/components/SinglePhoto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/src/components/SinglePost.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/components/SinglePost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/src/components/Toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/components/Toolbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SinglePost.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Toolbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/IndexPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/RegisterPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SinglePostPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/UploadPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/UserPostsPage.js" beforeDir="false" />
-    </list>
+    <list default="true" id="65c934c6-e739-43f5-bbae-122b42b22bcc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,6 +86,7 @@
       <workItem from="1743067876377" duration="14224000" />
       <workItem from="1743332608740" duration="3856000" />
       <workItem from="1743415689679" duration="2757000" />
+      <workItem from="1743429275952" duration="5633000" />
     </task>
     <servers />
   </component>

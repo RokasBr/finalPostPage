@@ -8,7 +8,6 @@ const Login = ({socket}) => {
     const nav = useNavigate()
     const {setUser} = mainStore(state => state)
 
-
     const usernameRef = useRef(null);
     const passwordRef = useRef(null);
     const [error, setError] = useState("");
@@ -27,16 +26,14 @@ const Login = ({socket}) => {
 
         const res = await http.post("http://localhost:2002/login", { username, password })
 
-        console.log(res)
+        // console.log(res)
         if(res.success) {
             console.log("Login Response:", res);
-            socket.emit("login", res.user.username)
+            // socket.emit("login", res.user.username)
             localStorage.setItem("token", res.token)
             setUser(res.user)
             nav("/home")
-
         }
-
     };
 
     return (

@@ -18,7 +18,7 @@ module.exports = {
         const newUser = new userSchema({
             username,
             password: hash,
-            favorites: [] // Initialize an empty favorites array
+            favorites: []
         });
 
         await newUser.save();
@@ -172,7 +172,7 @@ module.exports = {
             if (!user) return res.send({ success: false, message: "User not found" });
 
             const { username, password, photoURL } = req.body;
-            console.log('REQ BODY', photoURL);
+            // console.log('REQ BODY', photoURL);
 
             if (username) {
                 // Check if there's an existing user with the same username
@@ -235,7 +235,7 @@ module.exports = {
             const { text } = req.body;
             const username = req.user.username;
 
-            console.log("vot ", req.user)
+            // console.log("vot ", req.user)
 
             const post = await postDb.findById(post_id);
             if (!post) return res.send({ success: false, message: "Post not found" });
@@ -310,17 +310,17 @@ module.exports = {
     // },
     getMessages: async (req, res) => {
         try {
-            console.log("User ID:", req.user._id); // Check if userId exists
+            // console.log("User ID:", req.user._id);
 
             const userId = req.user._id;
             const messages = await Message.find({
-                $or: [{ sender: userId }, { recipient: userId }]
+                 recipient: userId
             })
                 .sort({ createdAt: -1 })
                 .populate("sender", "username")
                 .populate("recipient", "username");
 
-            console.log("Fetched Messages:", messages); // Debugging output
+            // console.log("Fetched Messages:", messages);
 
             res.send({ success: true, messages });
         } catch (error) {

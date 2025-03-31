@@ -42,7 +42,7 @@ const SinglePostPage = () => {
         <div className="post-container">
             <Toolbar />
             <div className="d-flex">
-                <div>
+                <div className="image-container">
                     <img src={post.image} alt="Post" />
                 </div>
                 <div>
