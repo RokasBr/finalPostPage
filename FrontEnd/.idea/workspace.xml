@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65c934c6-e739-43f5-bbae-122b42b22bcc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/route.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/Pages/GalleryPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/Pages/GalleryPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/Pages/IndexPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/Pages/IndexPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/Pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/Pages/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/Pages/PostsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/Pages/PostsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/Pages/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/Pages/ProfilePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/Pages/RegistrationPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/Pages/RegistrationPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/components/SinglePhoto.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/components/SinglePhoto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/components/SinglePost.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/components/SinglePost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/components/Toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/components/Toolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/blogsrc/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SinglePost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Toolbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/IndexPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/RegisterPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SinglePostPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/UploadPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/UserPostsPage.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2tIlPTTnXhWS7grlQ5viJWhPyNZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rrkcv/WebstormProjects/REACT socket app example&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="$APPLICATION_CONFIG_DIR$/node/versions/22.14.0/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-WS-243.24978.60" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65c934c6-e739-43f5-bbae-122b42b22bcc" name="Changes" comment="" />
+      <created>1740047444272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740047444272</updated>
+      <workItem from="1740047445443" duration="857000" />
+      <workItem from="1740049798037" duration="654000" />
+      <workItem from="1740133253287" duration="2156000" />
+      <workItem from="1740136468116" duration="116000" />
+      <workItem from="1740136888003" duration="12000" />
+      <workItem from="1740136933811" duration="2603000" />
+      <workItem from="1742385548911" duration="7308000" />
+      <workItem from="1742816158440" duration="15488000" />
+      <workItem from="1742900224330" duration="16144000" />
+      <workItem from="1742997928836" duration="8746000" />
+      <workItem from="1743067876377" duration="14224000" />
+      <workItem from="1743332608740" duration="3856000" />
+      <workItem from="1743415689679" duration="2757000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
