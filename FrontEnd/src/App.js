@@ -20,7 +20,7 @@ import MessagesPage from "./pages/MessagesPage";
 function App() {
     const fetchUser = useStore(state => state.fetchUser);
     useEffect(() => {
-        fetchUser();  // Load user on startup
+        fetchUser();
     }, []);
     // const {user} = mainStore(state => state)
 

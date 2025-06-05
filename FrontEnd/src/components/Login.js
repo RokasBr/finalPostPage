@@ -25,10 +25,12 @@ const Login = ({socket}) => {
         }
 
         const res = await http.post("http://localhost:2002/login", { username, password })
-
+        if (res.error) {
+            alert(res.message);
+        }
         // console.log(res)
         if(res.success) {
-            console.log("Login Response:", res);
+            // console.log("Login Response:", res);
             // socket.emit("login", res.user.username)
             localStorage.setItem("token", res.token)
             setUser(res.user)

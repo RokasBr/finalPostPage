@@ -7,7 +7,7 @@ const MessagesPage = () => {
     const [messages, setMessages] = useState([]);
 
     useEffect(() => {
-        console.log("Messages page loaded");
+        // console.log("Messages page loaded");
         const fetchMessages = async () => {
             try {
                 const data = await http.get("http://localhost:2002/messages");

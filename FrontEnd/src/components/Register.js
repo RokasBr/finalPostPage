@@ -26,7 +26,12 @@ const Register = () => {
         }
 
         const res = await http.post("http://localhost:2002/register", { username, password })
-        console.log(res)
+        if (res.error) {
+            alert(res.message); // Show alert if backend validation fails
+        } else {
+            alert("Registration successful!");
+        }
+        // console.log(res)
     };
 
     return (
